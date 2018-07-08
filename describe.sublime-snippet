@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-describe('Testing ${1:_____}', () => {
-	it('${2:_____}', () => {
-		let $ctrl = $componentController('${3:_____}', null, {
+describe("Testing ${1:_____}", () => {
+	it("${2:_____}", () => {
+		let $ctrl = $componentController("${3:_____}", null, {
 			//bindings
 		});
 

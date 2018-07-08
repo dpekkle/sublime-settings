@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-subtest 'GIVEN ${1:TODO: A setup environment}' => sub {
-	subtest 'WHEN ${2:TODO: An action is taken}' => sub {
+subtest "GIVEN ${1:TODO: A setup environment}" => sub {
+	subtest "WHEN ${2:TODO: An action is taken}" => sub {
 		my \$received = 1;
 		my \$expected = 1;
-		is(\$received, \$expected, 'THEN ${3:TODO: expected result}');
+		is(\$received, \$expected, "THEN ${3:TODO: expected result}");
 	};
 };
 ]]></content>
