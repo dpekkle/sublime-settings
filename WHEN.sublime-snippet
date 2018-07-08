@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+subtest 'WHEN ${1:TODO: An action is taken}' => sub {
+	my \$received = 1;
+	my \$expected = 1;
+	is(\$received, \$expected, 'THEN${2:TODO: expected result}');
+};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>when</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.perl</scope>
+</snippet>

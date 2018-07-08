@@ -1,0 +1,40 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"1337 Color Scheme",
+		"A File Icon",
+		"Alignment",
+		"Ansible",
+		"ANSIescape",
+		"Auto Close HTML Tags",
+		"Bitbucket",
+		"Case Conversion",
+		"ES6-Toolkit",
+		"Git",
+		"Git blame",
+		"GitGutter",
+		"Go To Definition",
+		"Jasmine JS",
+		"Jasmine Scaffold",
+		"JavaScript Completions",
+		"ModernPerl",
+		"Neon Color Scheme",
+		"Oceanic Next Color Scheme",
+		"Package Control",
+		"Path Tools",
+		"PerlTidy",
+		"Sass",
+		"Seti_UI",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint_d",
+		"SublimeLinter-contrib-htmlhint",
+		"SublimeLinter-contrib-perlcritic",
+		"SublimeLinter-stylelint",
+		"Theme - Afterglow",
+		"Undo Close Tab"
+	]
+}

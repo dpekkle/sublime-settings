@@ -1,0 +1,38 @@
+<snippet>
+	<content><![CDATA[
+=head2 TESTING ${1:TODO: function name}
+
+${2:TODO: Description of the test, techniques, and things you didn't cover in this test}
+
+=head3 AUTHOR
+
+Danielle Cerisier
+
+=cut
+
+subtest 'TESTING ${1:TODO: function name}' => sub {
+	my @cleanup_objects;
+	my \$error;
+	try {
+		subtest 'GIVEN ${3:TODO: A setup environment}' => sub {
+			subtest 'WHEN ${4:TODO: An action is taken}' => sub {
+				my \$received = 1;
+				my \$expected = 1;
+				is(\$received, \$expected, 'THEN ${5:TODO: expected result}');
+			};
+		};
+	}
+	catch {
+		fail TestUtil::get_error_string(\$_);
+	}
+	finally {
+		TestUtil::cleanup_irx_objects(\@cleanup_objects);
+	};
+};
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>unit try</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.perl</scope>
+</snippet>

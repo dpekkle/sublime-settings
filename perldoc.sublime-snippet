@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+=head2 ${1:function name}
+
+${2:description}
+
+=head3 PARAMETERS
+
+${3:parameter list}
+
+=head3 RETURN
+
+${4: return value}
+
+=head3 AUTHOR
+
+Danielle Cerisier
+
+=cut
+]]></content>
+	<tabTrigger>doc</tabTrigger>
+	<scope>source.perl</scope>
+</snippet>

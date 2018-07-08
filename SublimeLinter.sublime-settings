@@ -1,0 +1,6 @@
+// SublimeLinter Settings - User
+{
+	"lint_mode": "load_save",
+	"gutter_theme": "ProjectIcons",
+
+}

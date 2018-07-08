@@ -1,0 +1,93 @@
+{
+	"added_words":
+	[
+		"Cerisier",
+		"head2",
+		"head3",
+		"Chan",
+		"Plugin",
+		"head1",
+		"args",
+		"undef",
+		"nonrequired",
+		"ints",
+		"rollover",
+		"setup"
+	],
+	"auto_close_tags": false,
+	"auto_complete_commit_on_tab": true,
+	"auto_match_enabled": false,
+	"binary_file_patterns":
+	[
+		"*.map",
+		".DS_Store"
+	],
+	"bold_folder_labels": true,
+	"color_inactive_tabs": true,
+	"color_scheme": "Packages/User/SublimeLinter/Afterglow-twilight (SL).tmTheme",
+	"default_line_ending": "unix",
+	"dictionary": "Packages/Language - English/en_GB.dic",
+	"drag_text": false,
+	"draw_centered": false,
+	"draw_indent_guides": false,
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": false,
+	"fade_fold_buttons": false,
+	"file_exclude_patterns":
+	[
+		"*.map",
+		".DS_Store",
+		"*/affinitylive/node_modules/*",
+		"*/affinitylive/affinity/htdocs/import",
+		"*/affinitylive/.karma-tmp/*",
+		"*/affinitylive/Accelo-Signup/public/javascripts/jquery.js",
+		"*/affinitylive/affinity/gadget/cdn_assets/*",
+		"*/affinitylive/affinity/htdocs/charts/*",
+		"*.bundle.js",
+		"*.min.js",
+		"*/affinitylive/affinity/htdocs/tinymce/*",
+		"*/affinitylive/bin/custom_scripts/randmarketing/*",
+		"*/affinitylive/bower_components/*",
+		"*/affinitylive/bower_modules/*",
+		"*/affinitylive/lib/dist/*",
+		"*/affinitylive/affinity/htdocs/angular/js/components/utils/svg/*",
+		"*/affinitylive/affinity/htdocs/ui_lib/scripts/*",
+		"*/affinitylive/affinity/htdocs/dist/*",
+		"*/affinitylive/affinity/htdocs/**/*.css",
+		"*/accelo.sublime-workspace*",
+		"*.swp",
+		"*/vendor/*"
+	],
+	"font_face": "Fira Code Retina",
+	"font_size": 8,
+	"ignored_packages":
+	[
+		"ModernPerl",
+		"Vintage"
+	],
+	"ignored_words":
+	[
+		"ab",
+		"ax"
+	],
+	"open_files_in_new_window": false,
+	"perltidy_options":
+	[
+	],
+	"rulers":
+	[
+		80
+	],
+	"scroll_past_end": false,
+	"show_definitions": false,
+	"show_line_endings": true,
+	"status_bar_brighter": true,
+	"tab_size": 4,
+	"tabs_medium": true,
+	"theme": "Seti.sublime-theme",
+	"translate_tabs_to_spaces": false,
+	"trim_automatic_white_space": false,
+	"trim_trailing_white_space_on_save": false,
+	"word_separators": "./\\()\"'-:,.;<>~!#%^&*|+=[]{}`~?",
+	"word_wrap": "true"
+}

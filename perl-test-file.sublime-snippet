@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+#!/usr/bin/env perl;
+use strictures 1;
+use warnings;
+
+use Test::Most;
+
+use FindBin qw/\$Bin/;
+use lib "\$Bin/../../modules";
+
+${1:#TODO Include Tested Module}
+
+${2:#TODO Tests}
+
+done_testing();
+1;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>test</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.perl</scope>
+</snippet>

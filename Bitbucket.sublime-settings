@@ -1,0 +1,22 @@
+{
+      "issue_trackers":
+      [
+        {
+            "type": "jira",
+
+            // The base URL (including https://) of the JIRA instance.
+            "host": "https://affinitylive.jira.com",
+
+            // An array of project keys (e.g., ABC) for identifying issue references. For
+            // example, if you have `["ABC"]` in here, then if a commit message includes
+            // a string like 'ABC-123' the Bitbucket plugin can take you straight to that
+            // issue.
+            "project_keys": [
+                "API",
+                "AFFINITY",
+                "MOB",
+                "DEVOP"
+            ]
+        }
+      ]
+}
